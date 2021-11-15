@@ -57,3 +57,13 @@
   line-height: 12px;
   color: #e5e5e5;
 }
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 500px) {
+  .gallery-container {
+    column-count: 1;
+  }
+}

@@ -9,6 +9,8 @@ nav {
   padding: 20px 0;
 }
 .logo {
+  flex-basis: 30%;
+  padding-left: 40px;
   font-family: "Pattaya", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -16,7 +18,18 @@ nav {
   line-height: 42px;
 }
 .search-lighting {
-  width: 50%;
+  width: 70%;
+}
+@media screen and (max-width: 700px) {
+  nav,
+  .search-lighting {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-lighting {
+    width: 100%;
+  }
 }
 .nav-search-container {
   position: relative;
@@ -37,6 +50,17 @@ nav {
   border: 1px solid #858484;
   box-shadow: inset 0px 4px 19px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
+}
+@media screen and (max-width: 700px) {
+  .nav-search-container {
+    width: 90%;
+  }
+  .nav-search-container svg {
+    top: 25px;
+  }
+  .nav-search {
+    margin: 15px 0;
+  }
 }
 .mode {
   display: flex;

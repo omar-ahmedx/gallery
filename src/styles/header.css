@@ -35,3 +35,15 @@
   padding: 5px;
   padding-left: 40px;
 }
+
+@media screen and (max-width: 750px) {
+  h1 {
+    text-align: center;
+  }
+  .main-search-container {
+    width: 90%;
+  }
+  .main-search {
+    width: 100%;
+  }
+}
