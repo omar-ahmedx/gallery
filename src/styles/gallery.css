@@ -1,0 +1,59 @@
+.gallery-container {
+  column-count: 3;
+  margin: 30px;
+}
+
+.img-card {
+  display: inline-block;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #141414;
+  height: fit-content;
+  width: 100%;
+}
+.main-img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  cursor: pointer;
+}
+.img-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+.creator-info {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.creator-account {
+  margin-top: 4px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  color: #a7a7a7;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.likes svg {
+  fill: white;
+  width: 16px;
+}
+.likes p {
+  margin-left: 5px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 12px;
+  color: #e5e5e5;
+}

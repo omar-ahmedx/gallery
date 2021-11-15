@@ -1,0 +1,37 @@
+.welcome-container {
+  background-image: url("./mountain.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-txt {
+  color: #b4b4b4;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 10px 0;
+}
+.main-search-container {
+  position: relative;
+}
+.main-search-container svg {
+  position: absolute;
+  fill: #6d6d6d;
+  top: 8px;
+  left: 8px;
+}
+.main-search {
+  width: 694px;
+  height: 39px;
+  background: #ffffff;
+  border-radius: 8px;
+  color: #6d6d6d;
+  border: none;
+  padding: 5px;
+  padding-left: 40px;
+}
